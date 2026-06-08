@@ -60,6 +60,7 @@ skills/
 | productivity/internal-comms | Internal communication drafting |
 | productivity/learn | Learning and tutoring workflows |
 | productivity/skill-creator | Build and test new skills |
+| productivity/teach | Stateful multi-session teaching workspace with lessons, records, glossary |
 
 ### Creative
 
