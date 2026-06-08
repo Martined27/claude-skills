@@ -14,60 +14,29 @@ bash install.sh
 
 ```
 skills/
-├── (public skills)      — Anthropic-provided skill set
-├── (example skills)     — Community/example skills
-└── engineering/         — Engineering workflow plugins
-    ├── architecture/
-    ├── code-review/
-    ├── debug/
-    ├── deploy-checklist/
-    ├── documentation/
-    ├── incident-response/
-    ├── standup/
-    ├── system-design/
-    ├── tech-debt/
-    └── testing-strategy/
+├── public/       — Anthropic-provided skills
+├── engineering/  — Engineering workflow plugins
+├── productivity/ — Writing, learning, workflow skills
+├── creative/     — Design, art, and builder skills
+└── personal/     — Life admin and personal tasks
 ```
 
-## Installed Skills
+## Skills
 
 ### Public (Anthropic)
 
 | Skill | Description |
 |---|---|
-| docx | Create and manipulate Word documents |
-| file-reading | Read/extract content from uploaded files |
-| frontend-design | Production-grade UI components and web interfaces |
-| pdf | Create, fill, merge, split PDF files |
-| pdf-reading | Extract text and content from PDFs |
-| pptx | Create and edit PowerPoint presentations |
-| product-self-knowledge | Anthropic product facts reference |
-| xlsx | Spreadsheet creation and manipulation |
+| public/docx | Create and manipulate Word documents |
+| public/file-reading | Read/extract content from uploaded files |
+| public/frontend-design | Production-grade UI components and web interfaces |
+| public/pdf | Create, fill, merge, split PDF files |
+| public/pdf-reading | Extract text and content from PDFs |
+| public/pptx | Create and edit PowerPoint presentations |
+| public/product-self-knowledge | Anthropic product facts reference |
+| public/xlsx | Spreadsheet creation and manipulation |
 
-### Examples / General
-
-| Skill | Description |
-|---|---|
-| algorithmic-art | Generative art creation |
-| brand-guidelines | Brand-consistent content creation |
-| canvas-design | Canvas-based design artifacts |
-| doc-coauthoring | Collaborative document workflows |
-| event-planning | Event logistics and planning |
-| file-expenses | Expense report filing |
-| file-form | Form filling workflows |
-| financial-calculator | Financial calculations and modeling |
-| hire-help | Hiring and recruitment workflows |
-| internal-comms | Internal communication drafting |
-| learn | Learning and tutoring workflows |
-| mcp-builder | MCP server scaffolding |
-| meal-delivery | Meal ordering automation |
-| return-refund | Return/refund request workflows |
-| skill-creator | Build and test new skills |
-| slack-gif-creator | GIF creation for Slack |
-| theme-factory | Theming system for artifacts |
-| web-artifacts-builder | Web component and artifact builder |
-
-### Engineering Plugins
+### Engineering
 
 | Skill | Description |
 |---|---|
@@ -81,6 +50,45 @@ skills/
 | engineering/system-design | System and API design |
 | engineering/tech-debt | Tech debt audit and prioritization |
 | engineering/testing-strategy | Test plans and coverage strategy |
+
+### Productivity
+
+| Skill | Description |
+|---|---|
+| productivity/doc-coauthoring | Collaborative document workflows |
+| productivity/handoff | Compact conversation into handoff doc for next agent |
+| productivity/internal-comms | Internal communication drafting |
+| productivity/learn | Learning and tutoring workflows |
+| productivity/skill-creator | Build and test new skills |
+
+### Creative
+
+| Skill | Description |
+|---|---|
+| creative/algorithmic-art | Generative art creation |
+| creative/brand-guidelines | Brand-consistent content creation |
+| creative/canvas-design | Canvas-based design artifacts |
+| creative/mcp-builder | MCP server scaffolding |
+| creative/slack-gif-creator | GIF creation for Slack |
+| creative/theme-factory | Theming system for artifacts |
+| creative/web-artifacts-builder | Web component and artifact builder |
+
+### Personal
+
+| Skill | Description |
+|---|---|
+| personal/benepass-reimbursement | Benepass expense reimbursement |
+| personal/call-to-book | Appointment booking workflows |
+| personal/cancel-unsubscribe | Cancellation and unsubscribe workflows |
+| personal/event-planning | Event logistics and planning |
+| personal/file-expenses | Expense report filing |
+| personal/file-form | Form filling workflows |
+| personal/financial-calculator | Financial calculations and modeling |
+| personal/grocery-shopping | Grocery list and shopping workflows |
+| personal/hire-help | Hiring and recruitment workflows |
+| personal/meal-delivery | Meal ordering automation |
+| personal/prescription-refill | Prescription refill workflows |
+| personal/return-refund | Return/refund request workflows |
 
 ## Wishlist
 
